@@ -1,0 +1,82 @@
+body {
+    background-color:lightgray;
+}
+
+.borde {
+    /* border: 1px #000 solid; */
+    text-align: center;/* 
+    height: 50px */
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.navbar-toggler-colors {
+    background-color: white; 
+    color: black;
+}
+
+.logo {
+    border-radius: 8px;
+}
+
+.cara-img {
+    border-radius: 100px;
+    height: 200px;
+}
+
+.navbar-sep {
+    margin-top: 70px;
+}
+
+.tec-icono {
+    width: 150px;
+    transition: ease-in-out 0.3s;
+}
+
+.tec-icono:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.tec-icono:hover + .tec-descrip {
+    color:dodgerblue;
+}
+
+.icono {
+    width: 40px;
+    margin: 5px;
+    transition: ease-in-out .3s;
+}
+
+.icono:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.tec-descrip, h3 {
+    padding: 15px;
+}
+
+p {
+    font-size: large;
+}
+
+.header-row-sep {
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+span[class*="carousel-control"] {
+    background-color: black;
+    border-radius: 100px;
+}
+
+img.preview{
+    border: 3px #000 solid;
+    border-radius: 20px;
+}

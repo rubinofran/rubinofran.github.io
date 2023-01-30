@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Categorización de la web -->
+    <meta name="description" content="Página web personal para mostrar el perfíl de informático y links a otros sitios propios">
+    <!-- Palabras clave para el buscador -->
+    <meta name="keywords" content="informática, páginas web, sitios web">
+    
+    <title>Rubino Fran</title>
+
+    <!-- Enlaces adicionales --> <!-- OBS, tener los archivos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler navbar-toggler-colors" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#links">Links</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tecs">Tecnologías</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row header-row-sep" id="header">
+            <div class="col-sm-12 borde">
+                <header>
+                    <img src="assets/cara.png" alt="..." class="cara-img">
+                    <h1>Rubino, Francisco Alejandro</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row" id="perfil">
+            <hr>
+            <div class="col-sm-6 borde">
+                <h3><u>Acerca de mi</u></h3>
+                <p class="text-align-justify">
+                    Estudiante avanzado de informática aplicada, con conocimientos 
+                    en ciencias exactas y diferentes tecnologías de la computación.
+                    Nacido en la ciudad de Chacabuco, en el interior de la Provincia
+                    de Buenos Aires, pero residiente en la Capitál Federal, llevo 
+                    adelante mis estudios en el Instituto Nacional del Profesorado
+                    Técnico (INSPT - <a href="https://inspt.utn.edu.ar/" target="_blank">https://inspt.utn.edu.ar/</a>) dependiente de la Universidad Tecnológica Nacional (UTN). 
+                </p>
+            </div>
+            <div class="col-sm-6 borde">
+                <h3><u>Acerca de mis sitios web</u></h3>
+                <p class="text-align-justify">
+                    Así como el presente, se listan a continuación otros sitios web propios implementados 
+                    con HTML, CSS y JS. JavaScript es un lenguaje versátil y multiparadigma, y se utilizó para la 
+                    creación de funciones que pueden modificar el DOM mediante eventos, y así, se crearon 
+                    aplicaciones web con objetivos precisos y sencillas de entender. Adicionalmente se utilizó 
+                    Bootstrap para agilizar y mejorar el diseño web.
+                </p>
+            </div>
+        </div>
+        <div class="row" id="links"> 
+            <hr>
+            <div class="col-sm-12 borde">
+                <h3><u>Links</u></h3>
+                <div id="carouselFade" class="carousel slide carousel-fade"> 
+                    <div class="carousel-inner"> 
+                        <div class="carousel-item active">    
+                            <h5>Aplicación web para calcular las correlatividades de asignaturas en una institución educativa</h5>
+                            <img src="assets/sitio-1.png" alt="..." class="preview">
+                            <p><a href="https://correlatividades.web.app/" target="_blank">Ir al sitio</a></p>
+                        </div>
+                        <div class="carousel-item">
+                            <h5>Aplicación web para el aprendizaje de los silabarios presentes en la escritura japonesa</h5>
+                            <img src="assets/sitio-2.png" alt="..." class="preview">
+                            <p><a href="https://silabarios-732b4.web.app/" target="_blank">Ir al sitio</a></p>    
+                        </div>
+<!--                         <div class="carousel-item">
+                            <h5>Tercer página</h5>
+                            <img src="... .png" alt="..." class="preview">
+                            <p><a href="#" target="_blank">Ir al sitio</a></p>
+                        </div> -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="tecs">
+            <div class="col-sm-12 borde">
+                <h3><u>Tecnologías</u></h3>
+                <img class="tec-icono" src="assets/html-icono.svg" alt="...">
+                <p class="tec-descrip">Estructuración y despliegue de páginas web mediante el lenaguaje de hipertexto.</p>
+                <img class="tec-icono" src="assets/css-icono.svg" alt="...">
+                <p class="tec-descrip">Imposición de reglas para definir los estilos en las etiquetas de html utilizadas.</p>
+                <img class="tec-icono" src="assets/js-icono.svg" alt="...">
+                <p class="tec-descrip">Codificación lógica de aplicaciones y páginas web mediante un lenguaje interpretado y multiparadigma.</p>
+                <img class="tec-icono" src="assets/bootstrap-icono.svg" alt="...">
+                <p class="tec-descrip"><a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a></p>
+            </div>
+        </div>
+        <div class="row" id="footer">
+            <div class="col-sm-12 borde">
+                <hr>
+                <footer>
+                    <address>Email: rubinofranciscodev@gmail.com</address>
+                    <a target="_blank" href="https://www.instagram.com/rubino.fran">
+                        <img src="assets/instagram.svg" alt="" class="icono">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/rubinofran/">
+                        <img src="assets/linkedin.svg" alt="" class="icono">
+                    </a>
+                    <a target="_blank" href="https://github.com/rubinofran">
+                        <img src="assets/github.svg" alt="" class="icono">
+                    </a>
+                    <br><br>
+                    <time datetime="2023/01/05" pubdate>Creada el 05/01/2023</time>
+                    <br>
+                    <small>Derechos reservados © Mi sitio web 2023</small>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
